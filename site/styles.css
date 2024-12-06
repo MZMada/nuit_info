@@ -1,0 +1,259 @@
+body {
+	font-family : Times New Roman, sans-serif;
+	color : #fff;
+	margin : 0;
+	padding : 0;
+	box-sizing : border-box;
+	background-image: url("https://images.unsplash.com/photo-1518837695005-2083093ee35b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+	background-size : 100%;
+	background-attachment: fixed;
+}
+
+header {
+	background-color : #333;
+	color : #fff;
+	padding : 0 0;
+}
+
+nav ul {
+	list-style : none;
+	padding : 0;
+	text-align : center;
+	cursor : help;
+}
+
+nav ul li {
+	display : inline;
+	margin : 0;
+	cursor : help;
+}
+
+nav ul li a {
+	color : #fff;
+	margin : 10%;
+	text-decoration : underline overline   #696969;
+	cursor : help;
+}
+
+main {
+	padding : 2rem;
+	text-align : left;
+}
+
+table {
+	border : dotted 3px;
+	margin: 5%;
+}
+
+footer {
+	background-color : #333;
+	color : #fff;
+	opacity: 50%;
+	text-align : center;
+	padding : 0 0;
+	position : fixed;
+	width : 100%;
+	bottom : 0;
+	cursor : grab;
+	font-size : 100%;
+}
+
+
+p {
+  animation-duration: 3s;
+  animation-name: slidein;
+  opacity : 100%;
+}
+
+@keyframes slidein {
+  from {
+    margin-top: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-top: 0%;
+    width: 100%;
+  }
+}
+
+h1 {
+  animation-duration: 3s;
+  animation-name: slidein;
+  color : black
+}
+
+
+@keyframes slidein {
+  from {
+    margin-top: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-top: 0%;
+    width: 100%;
+  }
+}
+
+h2 {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+canvas {
+        border: 1px solid black;
+}
+
+/*Menu deroulant*/
+
+label {
+  font-family: Times New Roman, sans-serif;
+  font-size: 1rem;
+  padding-right: 10px;
+  appearance: shape;
+}
+
+select {
+  font-size: 0.9rem;
+  padding: 2px 5px;
+}
+
+
+
+
+/* Formes */
+
+.shape {
+  float: center;
+  width: 1200px;
+  height: 50px;
+  shape-outside: inset(20px 50px 10px 0 round 50px);
+  background-color: #a0a0a0;
+  border: 1px solid  #a3a3a3;
+  border-radius: 30px;
+  margin: 45px;
+  padding: 0px;
+}
+
+.shape2 {
+  float: center;
+  width: 200px;
+  height: 50px;
+  shape-outside: inset(20px 50px 10px 0 round 50px);
+  background-color: #a0a0a0;
+  border: 1px solid  #a3a3a3;
+  border-radius: 30px;
+  margin: 45px;
+  padding: 0px;
+  opacity: 30%;
+}
+
+.shape3 {
+  float: center;
+  width: 1000px;
+  height: 250px;
+  shape-outside: inset(100px 50px 30px 0 round 50px);
+  background-color:  #616161;
+  border: 1px solid  #5e5e5e;
+  border-radius: 30px;
+  margin: 45px;
+  padding: 20px;
+  opacity: 90%;
+}
+
+.shape8 {
+  float: center;
+  width: 1000px;
+  height: 330px;
+  shape-outside: inset(100px 50px 30px 0 round 50px);
+  background-color:  #616161;
+  border: 1px solid  #5e5e5e;
+  border-radius: 30px;
+  margin: 45px;
+  padding: 20px;
+  opacity: 90%;
+}
+
+.shape4 {
+  float: center;
+  width: 1000px;
+  height: 130px;
+  shape-outside: inset(20px 50px 10px 0 round 50px);
+  background-color:  #616161;
+  border: 1px solid  #5e5e5e;
+  border-radius: 30px;
+  margin: 45px;
+  padding: 20px;
+  opacity: 90%;
+}
+
+.shape5 {
+  float: center;
+  width: 1000px;
+  height: 250px;
+  shape-outside: inset(20px 50px 10px 0 round 50px);
+  background-color:  #616161;
+  border: 1px solid  #5e5e5e;
+  border-radius: 30px;
+  margin: 45px;
+  padding: 20px;
+  opacity: 90%;
+}
+
+.shape10 {
+  float: center;
+  width: 1000px;
+  height: 360px;
+  shape-outside: inset(20px 50px 10px 0 round 50px);
+  background-color:  #616161;
+  border: 1px solid  #5e5e5e;
+  border-radius: 30px;
+  margin: 45px;
+  padding: 20px;
+  opacity: 90%;
+}
+
+.shape7 {
+  float: center;
+  width: 450px;
+  height: 230px;
+  shape-outside: inset(20px 50px 10px 0 round 50px);
+  background-color:  #616161;
+  border: 1px solid  #5e5e5e;
+  border-radius: 30px;
+  margin: 45px;
+  padding: 20px;
+  opacity: 90%;
+  animation-name: slidein;
+}
+
+/*Animation*/
+@keyframes slidein {
+  from {
+    margin-top: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-top: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes clignoter {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.clignotant {
+  animation: clignoter 1s infinite;
+}
+

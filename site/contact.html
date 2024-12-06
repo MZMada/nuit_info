@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+	<script src="script.js"></script>
+	<script type="text/javascript" src="https://click123.ca/dist/js/snow.js"></script>
+	<link rel="icon" href="images/favicon.ico"> 
+</head>
+<body>
+    <header class="shape">
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <!-- <label for="pet-select">Choose a pet:</label> -->
+				<li><a href="about.html">Anatomie de l'océan</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+	
+    <main>
+	<div class="shape7">
+		<h2>Laissez votre avis s'il vous plait!</h2>
+		<p>Chaque avis compte</p>
+		<form id="form" action="mailto:evancoulpotin.sup@gmail.com?content-type=text/html&amp;subject=Site%20Web" method="post" enctype="text/plain">
+			<p>
+				<label for="prenom">Prénom</label><input id="prenom" type="text" name="prenom" value=" ">
+				<label for="nom">Nom</label><input id="nom" type="text" name="nom" value=" "><br>
+				<input id="sexeHomme" type="radio" name="sexe" value="homme"><label for="sexeHomme">Homme</label> 
+				<input id="sexeFemme" type="radio" name="sexe" value="femme"><label for="sexeFemme">Femme</label><br>
+				<textarea name="impression" rows="5" cols="50"></textarea>
+				<input type="submit" value="Envoyer">
+			</p>
+		</form>
+	</div>
+    </main>
+    <footer class="shape2">
+        <p><p class="clignotant">&copy; 2024 Mon Site Internet</p></p>
+    </footer>
+</body>
+</html>
